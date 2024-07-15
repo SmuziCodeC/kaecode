@@ -25,10 +25,10 @@ public class Scenes : MonoBehaviour
           ListsAndSaves.CreateList(Scenes);
           ListsAndSaves.AddElementToList(sceneName);
           ListsAndSaves.SaveToIList(sceneName);
-          Files.SaveElementToProperties(CCode(server3,'/servers/properties/template.prpt'), name sceneName);
+          Files.SaveElementToProperties(CCode(server3,'/libraries/properties/template.prpt'), name sceneName);
         }
     public void Lnk()
     {
-         Holat.ConnectToServer(server3);
+         Holat.ConnectToFolder(server3/libraries/);
     }
 }
