@@ -1,7 +1,0 @@
-namespace prpt :
-  public class \SceneName/
-  {
-      public string ScenePasswordForHolat: {Random6(Symbols: ABCDEFGHIJKLMNOPQRSTUVWXYZQQabcdefghijklmnopqrstuvwxyzqq1234567890); int; set;}
-      public int SceneID {Random7(Symbols: 0123456789) int; set;}
-      public bool IsActive { true }
-  }
